@@ -1,3 +1,5 @@
+premium_cost = 150
+
 def ground_cost(weight):
   flat_charge = 20
   if weight <= 2:
@@ -12,8 +14,6 @@ def ground_cost(weight):
   else:
     cost = (4.75 * weight) + flat_charge
     return cost
-  
-premium_cost = 150
 
 def drone_cost(weight):
   if weight <= 2:
