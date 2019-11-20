@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 premium_cost = 150
 
 def ground_cost(weight):
