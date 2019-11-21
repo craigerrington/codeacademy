@@ -12,8 +12,9 @@ def coin_toss(call,bet):
         print("Heads, you lost " + str(-bet))
         return -bet
     else:
+        print("Tails, you lost " + str(-bet))
         return -bet
-	print("Tails, you lost " + str(-bet))
+        
 
 #Test
 coin_toss("Heads",25)
