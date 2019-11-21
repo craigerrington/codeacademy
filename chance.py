@@ -32,6 +32,7 @@ def cho_han(guess,bet):
         return -bet
     else:
         print("Odd, you win " + str(bet))
+        return bet
 
 
 #Call your game of chance functions here
